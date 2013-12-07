@@ -1,0 +1,51 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:ads="http://schemas.android.com/apk/lib/com.google.ads"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#E8E8E8"
+    android:orientation="vertical"
+    tools:context=".AboutActivity" >
+
+    <ScrollView
+        android:id="@+id/scrollView1"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1" >
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical" >
+            
+            <TextView
+        		android:layout_width="match_parent"
+        		android:layout_height="wrap_content"
+        		android:padding="5dp"
+        		android:gravity="center"
+        		android:alpha="0.7"
+        		android:background="#000000"
+        		android:textColor="#FFFFFF"
+        		android:textStyle="bold"
+        		android:text="@string/about_developer" />
+            
+            <TextView
+        		android:layout_width="match_parent"
+        		android:layout_height="wrap_content"
+        		android:padding="10dp"
+        		android:alpha="0.9"
+        		android:textStyle="bold"
+        		android:text="@string/about_developer_content" />
+            
+        </LinearLayout>
+    </ScrollView>
+    
+    <com.google.ads.AdView android:id="@+id/adViewAbout"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center|bottom"
+        ads:adUnitId="a15249ae865adb5"
+        ads:adSize="BANNER"
+        ads:loadAdOnCreate="true" />
+
+</LinearLayout>

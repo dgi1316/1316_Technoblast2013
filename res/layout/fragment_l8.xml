@@ -1,0 +1,197 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:ads="http://schemas.android.com/apk/lib/com.google.ads"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#E8E8E8"
+    android:orientation="vertical" >
+
+    <ScrollView
+        android:id="@+id/scrollView1"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1" >
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+    		android:paddingLeft="@dimen/activity_horizontal_margin"
+    		android:paddingRight="@dimen/activity_horizontal_margin"
+            android:orientation="vertical" >
+
+            <WebView
+                android:id="@+id/wvMap"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent" />
+            
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/coordinator"
+                android:textSize="20sp"
+                android:textStyle="bold" />
+            
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/c1"
+                android:textStyle="bold" />
+            
+            <TextView
+                android:id="@+id/tvCM1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:paddingTop="2dp"
+                android:paddingBottom="5dp"
+                android:text="@string/cm1" />
+            
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/c2"
+                android:textStyle="bold" />
+            
+            <TextView
+                android:id="@+id/tvCM2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:paddingTop="2dp"
+                android:paddingBottom="5dp"
+                android:text="@string/cm2" />
+            
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/c3"
+                android:textStyle="bold" />
+            
+            <TextView
+                android:id="@+id/tvCM3"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:paddingTop="2dp"
+                android:paddingBottom="5dp"
+                android:text="@string/cm3" />
+            
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/c4"
+                android:textStyle="bold" />
+            
+            <TextView
+                android:id="@+id/tvCM4"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:paddingTop="2dp"
+                android:paddingBottom="5dp"
+                android:text="@string/cm4" />
+            
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/c5"
+                android:textStyle="bold" />
+            
+            <TextView
+                android:id="@+id/tvCM5"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:paddingTop="2dp"
+                android:paddingBottom="5dp"
+                android:text="@string/cm5" />
+            
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/scoordinator"
+                android:textSize="20sp"
+                android:textStyle="bold" />
+            
+            <TextView
+                android:id="@+id/tvCS1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/cs1"
+                android:textStyle="bold" />
+            
+            <TextView
+                android:id="@+id/tvCSM1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:paddingTop="2dp"
+                android:paddingBottom="5dp"
+                android:text="@string/csm1" />
+            
+            <TextView
+                android:id="@+id/tvCS2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/cs2"
+                android:textStyle="bold" />
+            
+            <TextView
+                android:id="@+id/tvCSM2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:paddingTop="2dp"
+                android:paddingBottom="5dp"
+                android:text="@string/csm2" />
+            
+            <TextView
+                android:id="@+id/tvCS3"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/cs3"
+                android:textStyle="bold" />
+            
+            <TextView
+                android:id="@+id/tvCSM3"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:paddingTop="2dp"
+                android:paddingBottom="5dp"
+                android:text="@string/csm3" />
+            
+            <TextView
+                android:id="@+id/tvCS4"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/cs4"
+                android:textStyle="bold" />
+            
+            <TextView
+                android:id="@+id/tvCSM4"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:paddingTop="2dp"
+                android:paddingBottom="5dp"
+                android:text="@string/csm4" />
+            
+            <TextView
+                android:id="@+id/tvCS5"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/cs5"
+                android:textStyle="bold" />
+            
+            <TextView
+                android:id="@+id/tvCSM5"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:paddingTop="2dp"
+                android:paddingBottom="5dp"
+                android:text="@string/csm5" />
+            
+        </LinearLayout>
+    </ScrollView>
+    
+    <com.google.ads.AdView android:id="@+id/adViewl8"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center|bottom"
+        ads:adUnitId="a15249ae865adb5"
+        ads:adSize="BANNER"
+        ads:loadAdOnCreate="true" />
+
+</LinearLayout>
